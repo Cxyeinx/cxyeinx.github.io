@@ -1,2 +1,2 @@
-# exainz.github.io
+# cxyeinx.github.io
 My portfolio website :D
