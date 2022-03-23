@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("trees.jpg");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+@font-face {
+    font-family: 'Petrica';
+    src: url('Petricia-JRRDj.ttf') 
+}
+@font-face {
+    font-family: 'Rellington';
+    src: url('Rellington-4BvO4.ttf') 
+}
+@font-face {
+    font-family: 'Cinta';
+    src: url('Saling\ Cinta.ttf');
+}
+.middle{
+    text-align: center;
+    font-size: 100px;
+    font-family: Petrica;
+    color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #808080;
+}
+a:hover{
+    color: black;
+}
